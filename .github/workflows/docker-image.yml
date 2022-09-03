@@ -7,7 +7,7 @@ on:
       - 'main'
     paths-ignore:
       - '**/README.md'
-      - '**/docker-image.yml'
+      - '**/docker-image*.yml'
       - '**/dependabot.yml'
 
 jobs:
